@@ -10,7 +10,7 @@ export default function RandomNumberGame() {
       let finalNumber = Math.floor(Math.random() * (max - min + 1)) + min;
   
       gsap.to("#number", {
-        duration: 1,
+        duration: 7,
         textContent: finalNumber,
         roundProps: "textContent",
         ease: "power2.out",
